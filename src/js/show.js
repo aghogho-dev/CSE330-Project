@@ -1,4 +1,4 @@
-import { displayFavoriteMovie, displayFavoriteTVShow, fetchData, fetchTVData } from "./getdata.js";
+import { displayFavoriteMovie, displayFavoriteTVShow } from "./getdata.js";
 import { loadHeaderFooter } from "./utils.mjs";
 
 loadHeaderFooter();
@@ -6,10 +6,7 @@ loadHeaderFooter();
 window.addEventListener("pageshow", () => {
 
     const menuBtn = document.querySelector("#menu-btn");
-    const navEle = document.querySelector("#menu-links");
-
-    console.log("Menu Btn", menuBtn);
-    console.log("Nav Ele", navEle);
+    const navEle = document.querySelector("#menu-links");   
 
     if (!menuBtn || !navEle) {
         console.error("Menu button or navigation element not found!");
