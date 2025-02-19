@@ -1,0 +1,72 @@
+@media only screen and (min-width: 45rem) {
+
+    #menu-btn {
+        display: none;
+    }
+
+    #menu-links {
+        display: block;
+        align-self: initial;
+        background-color: initial;
+    }
+
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #first-line {
+        flex-basis: 60%;
+    }
+
+    #menu-links {
+        flex-basis: 40%;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    #footer-div {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #movie-show,
+    #tv-show {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .movie,
+    .tv {
+        flex-basis: 25%;
+        max-height: 650px;
+    }
+
+    #search-page {
+        max-width: 60%;
+    }
+
+    #search-results {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .movie img,
+    .tv img {
+        height: 80%;
+    }
+
+    #join-page {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #joins,
+    #searches {
+        flex-basis: 50%;
+    }
+}
